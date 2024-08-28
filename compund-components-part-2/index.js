@@ -17,10 +17,10 @@ import MenuDropdown from "./Menu/MenuDropdown"
  * promise we're getting there! 😃
  */
 
-function App() {
+function App() {                                      //solution
   return (
     <Menu>
-      <MenuButton>Sports</MenuButton>
+      <MenuButton>Sports</MenuButton>                                                  
       <MenuDropdown items={["Tennis", "Pickleball", "Racquetball", "Squash"]} />
     </Menu>
   )
