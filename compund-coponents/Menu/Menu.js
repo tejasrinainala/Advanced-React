@@ -20,7 +20,7 @@ export default function Menu({ children }) {
         setOpen(prevOpen => !prevOpen)
     }
 
-    return (
+    return (                                                            //solution
         <div className="menu">
             {children}
         </div>
