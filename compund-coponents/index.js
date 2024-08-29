@@ -23,7 +23,7 @@ import MenuDropdown from "./Menu/MenuDropdown"
  * there's more we need to learn before we can do that.
  */
 
-function App() {
+function App() {                                                  //solution
   return (
     <Menu>
       <MenuButton buttonText="Sports"/>
