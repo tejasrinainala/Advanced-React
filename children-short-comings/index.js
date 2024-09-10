@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Menu from "./Menu/Menu"
-import MenuButton from "./Menu/MenuButton"
-import MenuDropdown from "./Menu/MenuDropdown"
-import MenuItem from "./Menu/MenuItem"
+//import Menu from "./Menu/Menu"
+import MenuButton from "./MenuButton"
+//import MenuDropdown from "./Menu/MenuDropdown"
+//import MenuItem from "./Menu/MenuItem"
 
 function App() {
   const sports = ["Tennis", "Pickleball", "Racquetball", "Squash"]
