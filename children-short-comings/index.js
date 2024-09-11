@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 //import Menu from "./Menu/Menu"
-import MenuButton from "./MenuButton"
+import MenuButton from "./MenuButton";
 //import MenuDropdown from "./Menu/MenuDropdown"
 //import MenuItem from "./Menu/MenuItem"
 
