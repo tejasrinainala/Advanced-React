@@ -4,7 +4,7 @@ import Button from "./Button"
 
 /**
  * Challenge: set up the context again on your own!
- */
+ 
 
 export default function App() {
     return (
@@ -14,4 +14,17 @@ export default function App() {
         </div>
     )
 }
-snjdfgdshfbdhsgfhdjb
+*/
+
+export default function App() {
+    return (
+        <ThemeContext.Provider value="dark">
+            <div className="container dark-theme">                                    //solution
+                <Header />
+                <Button />
+            </div>
+        </ThemeContext.Provider>
+    )
+}
+
+export { ThemeContext }
