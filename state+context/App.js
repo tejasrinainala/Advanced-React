@@ -6,10 +6,10 @@ const ThemeContext = React.createContext()
 
 export default function App() {
     const [theme, setTheme] = React.useState("light")
-    function toggleTheme()
-    {
-        setTheme("dark")
+    function toggleTheme() {
+        setTheme(prevTheme => prevTheme === "light" ? "dark" : "light")                                                            //solution
     }
+    
     /**
      * Challenge part 2:
      * Create a `toggleTheme` function to that uses `setTheme`
