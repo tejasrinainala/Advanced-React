@@ -20,8 +20,8 @@ export default function App() {
      */
     
     return (
-        <ThemeContext.Provider value={{theme, toggleTheme}}>
-            <div className={`container ${theme}-theme`}>                                  //solution
+        <ThemeContext.Provider value={{theme, toggleTheme}}>                            /* solution */
+            <div className={`container ${theme}-theme`}>                                  
                 <Header />
                 <Button />
             </div>
