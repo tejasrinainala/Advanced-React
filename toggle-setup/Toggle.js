@@ -6,7 +6,7 @@
  *    boolean when the function runs.
  * NOTE: Don't worry about rendering anything yet
  */
-import React from "react"
+import React from "react"                                                            //solution
 export default function Toggle()
 {
     const [toggle,setToggle]=React.useState(false)
