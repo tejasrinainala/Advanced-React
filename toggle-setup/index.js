@@ -17,7 +17,7 @@ function App() {
 
       <br />
 
-      <Menu>
+      <Menu>                                                                      //solution
         <Menu.Button>Menu</Menu.Button>
         <Menu.Dropdown>
           <Menu.Item>Home</Menu.Item>
