@@ -27,7 +27,7 @@ export default function Toggle({ children, onToggle }) {
     }
 
     React.useEffect(() => {
-        if (firstRender.current) {                                                            //solution
+        if (firstRender.current) {                                                           //solution 
             firstRender.current = false
         } else {
             onToggle()
