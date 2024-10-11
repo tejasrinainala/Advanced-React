@@ -1,7 +1,7 @@
 import React from "react"
 
 export default function Decision({ sayName }) {
-    const [goingOut, setGoingOut] = React.useState(false)
+    const [goingOut, setGoingOut] = React.useState(false)                  //solution
     
     sayName(goingOut)
 
