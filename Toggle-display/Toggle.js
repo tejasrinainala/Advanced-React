@@ -4,7 +4,7 @@ import useEffectOnUpdate from "../../hooks/useEffectOnUpdate"
 const ToggleContext = React.createContext()
 
 export default function Toggle({ children, onToggle = () => {}}) {
-    const [on, setOn] = React.useState(false)
+    const [on, toggle] = useToggle()
 
     function toggle() {
         setOn(prevOn => !prevOn)
